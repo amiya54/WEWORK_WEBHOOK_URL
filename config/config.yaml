@@ -154,6 +154,46 @@ rss:
     - id: "ship-bunker"
       name: "Ship & Bunker 燃料新闻"
       url: "http://feeds.feedburner.com/shipandbunker"
+      
+      - id: "xinde"
+      name: "信德海事"
+      url: "https://www.xindemarinenews.com/feed" # 部分网站RSS需确认
+      # --- 行业媒体 (Maritime Media) ---
+      
+     - id: "maritime-executive"
+      name: "The Maritime Executive"
+      url: "https://www.maritime-executive.com/rss"
+      
+     - id: "splash247"
+      name: "Splash 247"
+      url: "https://splash247.com/feed/"
+      
+     - id: "tradewinds"
+      name: "TradeWinds"
+      url: "https://www.tradewindsnews.com/rss"
+      
+     - id: "lloydslist"
+      name: "Lloyd's List"
+      url: "https://lloydslist.com/rss"
+      
+     - id: "ship-bunker"
+      name: "Ship & Bunker"
+      url: "https://shipandbunker.com/rss/news"
+      
+     - id: "gcaptain"
+      name: "gCaptain"
+      url: "https://gcaptain.com/feed/"
+
+# --- 船级社与机构 (Classification Societies & Institutions) ---
+    - id: "dnv-maritime-impact"
+     name: "DNV Maritime Impact Podcast"
+     url: "https://dnv.libsyn.com/rss"
+     
+    - id: "imar-est"
+     name: "IMarEST Library"
+     url: "https://library.imarest.org/rss?ln=en"
+
+
 
     # 自定义源示例
     # - id: "custom-feed"
