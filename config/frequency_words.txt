@@ -151,8 +151,6 @@
 
 船舶
 低碳
-航运
-IMO
 Decarbonization
 Shipping
 Maritime
