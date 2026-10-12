@@ -127,39 +127,64 @@ rss:
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
-    # --- 国际核心媒体 ---
-    - id: "gcaptain"
-      name: "gCaptain 海事新闻"
-      url: "https://gcaptain.com/feed/"
-
-    - id: "marinelink"
-      name: "MarineLink 航运新闻"
-      url: "https://www.marinelink.com/news/rss"
-
-    - id: "maritime-executive"
-      name: "The Maritime Executive"
-      url: "https://www.maritime-executive.com/rss"
-
-    - id: "splash247"
-      name: "Splash 247"
-      url: "https://splash247.com/feed/"
-
-    - id: "tradewinds"
-      name: "TradeWinds"
-      url: "https://www.tradewindsnews.com/rss"
-
-    - id: "ship-bunker"
-      name: "Ship & Bunker 燃料新闻"
-      url: "http://feeds.feedburner.com/shipandbunker"
-
-    # --- 船级社与中文源 ---
+       # ===== 国际组织与船级社 (IMO, DNV, IMarEST) =====
+    - id: "imo-news"
+      name: "IMO 官网新闻"
+      url: "https://www.imo.org/en/about/pages/rss.aspx"
     - id: "dnv-maritime-impact"
       name: "DNV Maritime Impact"
       url: "https://dnv.libsyn.com/rss"
+    - id: "imar-est"
+      name: "IMarEST Library"
+      url: "https://library.imarest.org/rss?ln=en"
 
+    # ===== 国际航运媒体 (Maritime Media) =====
+    - id: "gcaptain"
+      name: "gCaptain 海事新闻"
+      url: "https://gcaptain.com/feed/"
+    - id: "splash247"
+      name: "Splash 247"
+      url: "https://splash247.com/feed/"
+    - id: "maritime-executive"
+      name: "The Maritime Executive"
+      url: "https://www.maritime-executive.com/rss"
+    - id: "tradewinds"
+      name: "TradeWinds"
+      url: "https://www.tradewindsnews.com/rss"
+    - id: "lloydslist"
+      name: "Lloyd's List"
+      url: "https://lloydslist.com/rss"
+    - id: "marinelink"
+      name: "MarineLink 航运新闻"
+      url: "https://www.marinelink.com/news/rss"
+    - id: "ship-bunker"
+      name: "Ship & Bunker"
+      url: "http://feeds.feedburner.com/shipandbunker"
+    - id: "bunkerspot"
+      name: "Bunkerspot"
+      url: "https://www.bunkerspot.com/rss"
+    - id: "offshore-energy"
+      name: "Offshore Energy"
+      url: "https://www.offshore-energy.biz/feed/"
+
+    # ===== 深度分析与播客 (Podcasts & Insights) =====
+    - id: "ship-energy-podcast"
+      name: "The ship.energy podcast"
+      url: "https://audioboom.com/channels/5051666.rss"
+    - id: "tws-maritime"
+      name: "TWS Maritime Service"
+      url: "https://twsbrasil.com/fr/insights/feed.xml"
+
+    # ===== 中文信源 =====
     - id: "xinde-marine"
       name: "信德海事"
       url: "https://www.xindemarinenews.com/feed"
+    - id: "eworldship"
+      name: "国际船舶网"
+      url: "http://www.eworldship.com/rss.xml"
+    - id: "imarine"
+      name: "龙de船人"
+      url: "https://www.imarine.cn/feed"
 
 
 
