@@ -152,12 +152,6 @@
 船舶
 低碳
 航运
-脱碳
-甲醇
-氨燃料
-氢燃料
-风帆
-碳捕集
 IMO
 Decarbonization
 Shipping
