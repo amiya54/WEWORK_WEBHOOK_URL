@@ -159,7 +159,7 @@ rss:
       name: "信德海事"
       url: "https://www.xindemarinenews.com/feed" # 部分网站RSS需确认
       # --- 行业媒体 (Maritime Media) ---
-      ‘
+    
     - id: "maritime-executive"
       name: "The Maritime Executive"
       url: "https://www.maritime-executive.com/rss"
